@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .hero p{
+    color:black;
+    text-shadow: 1px 1px 20px lightblue;
+  }
+  .hero h1{
+    text-shadow: 1px 1px 20px black;
+    font-family: Blackadder ITC;
+  }
+  .hero-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+/* Global media queries */
+@media (max-width: 768px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+    .hero {
+      padding: 50px 20px;
+    }
+  }
+    

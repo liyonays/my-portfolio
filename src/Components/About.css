@@ -1,0 +1,33 @@
+#about {
+    margin: 10px; 
+    padding: 20px;
+    line-height: 1.6; 
+}
+
+#about hr {
+    border: none; 
+    border-top: 5px dotted white; 
+    width: 50px; 
+    margin: 20px auto; 
+}
+#about p {
+    margin-left: 50px; 
+    font-size: 16px;
+}
+
+#about pre {
+    font-size: 16px;
+    margin-left: 50px;
+    white-space: pre-wrap; 
+}
+#about h1 {
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); 
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333; 
+}
+.footer{
+    text-align: center;
+}
